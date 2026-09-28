@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/traceflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trace list/flux set operations for shell-friendly data wrangling.",
+  "bin": {
+    "traceflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/traceflux.git"
+  },
+  "homepage": "https://theworker02.github.io/traceflux/",
+  "keywords": [
+    "trace",
+    "flux",
+    "list",
+    "cli",
+    "toolkit"
+  ]
+}
